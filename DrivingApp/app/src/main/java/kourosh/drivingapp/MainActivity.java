@@ -4,19 +4,45 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity {
 
+    RecyclerView recyclerView;
+    RecyclerView.LayoutManager layoutManager;
+    RecyclerView.Adapter adapter;
+
+    private List<Activity> activities;
+
+    private void initializeDate(){
+        activities = new ArrayList<>();
+        activities.add(new Activity("Service","Oil change is due in 5000km",R.drawable.service));
+        activities.add(new Activity("Fuel","300km left in tank",R.drawable.fuel));
+        activities.add(new Activity("Service","Oil change was done on Nov 11th",R.drawable.service));
+        activities.add(new Activity("Fuel","Tank was full on Nov10th",R.drawable.fuel));
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        recyclerView = (RecyclerView) findViewById(R.id.home_recyclerview);
+        layoutManager = new LinearLayoutManager(this);
+        recyclerView.setLayoutManager(layoutManager);
+        initializeDate();
+        adapter = new RecyclerAdapter(activities);
+        recyclerView.setAdapter(adapter);
+
 
         FloatingActionButton add = (FloatingActionButton) findViewById(R.id.add_button);
         add.setOnClickListener(new View.OnClickListener() {
