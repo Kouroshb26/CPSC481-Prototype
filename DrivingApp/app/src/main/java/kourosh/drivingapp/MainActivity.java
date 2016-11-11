@@ -24,10 +24,11 @@ public class MainActivity extends AppCompatActivity {
 
     private void initializeDate(){
         activities = new ArrayList<>();
-        activities.add(new Activity("Service","Oil change is due in 5000km",R.drawable.service));
-        activities.add(new Activity("Fuel","300km left in tank",R.drawable.fuel));
-        activities.add(new Activity("Service","Oil change was done on Nov 11th",R.drawable.service));
-        activities.add(new Activity("Fuel","Tank was full on Nov10th",R.drawable.fuel));
+        activities.add(new Activity(0,"","",R.drawable.gauge));
+        activities.add(new Activity(1,"Service","Oil change is due in 5000km",R.drawable.service));
+        activities.add(new Activity(1,"Fuel","300km left in tank",R.drawable.fuel));
+        activities.add(new Activity(1,"Service","Oil change was done on Nov 11th",R.drawable.service));
+        activities.add(new Activity(1,"Fuel","Tank was full on Nov10th",R.drawable.fuel));
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
