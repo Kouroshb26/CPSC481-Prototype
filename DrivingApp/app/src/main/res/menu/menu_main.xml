@@ -2,9 +2,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="kourosh.drivingapp.MainActivity">
+    <item android:title="Home"
+        android:id="@+id/menu_home" />
+    <item android:id="@+id/menu_fuel"
+        android:title="Fuel" />
+    <item android:id="@+id/menu_service"
+        android:title="Service" />
+    <item android:title="Info"
+        android:id="@+id/menu_info" />
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
+        android:title="@string/action_settings" />
 </menu>

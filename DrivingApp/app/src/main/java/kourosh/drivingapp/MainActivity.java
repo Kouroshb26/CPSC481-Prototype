@@ -1,5 +1,6 @@
 package kourosh.drivingapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -112,6 +113,14 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            return false;
+        } else if(id == R.id.menu_fuel){
+            return false;
+        } else if(id == R.id.menu_service){
+            return false;
+        } else if(id == R.id.menu_info){
+            Intent intent= new Intent(this,info.class);
+            startActivity(intent);
             return false;
         }
 
