@@ -21,6 +21,17 @@ public class Fuel {
     public String milage;
     public String cost;
 
+    public Fuel (String title,String date,String amountFueled, String milage, String cost){
+        this.title = title;
+        this.date = date;
+        this.amountFueled = amountFueled;
+        this.milage = milage;
+        this.cost = cost;
+    }
+
+    public Fuel (){
+
+    }
 
     public static ArrayList<Fuel> getfuelsFromFile(String filename, Context context){
         final ArrayList<Fuel> fuelList = new ArrayList<>();
@@ -37,7 +48,7 @@ public class Fuel {
 
                     fuel.title = fuels.getJSONObject(i).getString("title");
                     fuel.date = fuels.getJSONObject(i).getString("date");
-                    fuel.amountFueled = fuels.getJSONObject(i).getString("amountFueled");
+                    fuel.amountFueled = fuels.getJSONObject(i).getString("amountFueled") + " L";
                     fuel.milage = fuels.getJSONObject(i).getString("milage");
                     fuel.cost = "$"  + fuels.getJSONObject(i).getString("cost");
 
