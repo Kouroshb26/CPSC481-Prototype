@@ -1,4 +1,4 @@
-package com.example.patrickczeczko.justdrive;
+package com.example.justdrive;
 
 import org.junit.Test;
 

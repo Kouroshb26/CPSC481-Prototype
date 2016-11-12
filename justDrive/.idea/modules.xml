@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/JustDrive.iml" filepath="$PROJECT_DIR$/JustDrive.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/justDrive.iml" filepath="$PROJECT_DIR$/justDrive.iml" />
     </modules>
   </component>
 </project>
