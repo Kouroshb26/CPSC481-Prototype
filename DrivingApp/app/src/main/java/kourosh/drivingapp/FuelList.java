@@ -6,10 +6,10 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.ListView;
-import kourosh.drivingapp.R;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import kourosh.drivingapp.R;
 
 public class FuelList extends AppCompatActivity {
     private ListView mListView;
@@ -20,7 +20,6 @@ public class FuelList extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fuel_list);
-
 
         mListView = (ListView) findViewById(R.id.fuel_list_view);
 

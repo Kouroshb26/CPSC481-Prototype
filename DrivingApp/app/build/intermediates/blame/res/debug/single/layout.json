@@ -88,6 +88,10 @@
         "source": "/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/src/main/res/layout/activity_fuel_list.xml"
     },
     {
+        "merged": "/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/res/merged/debug/layout/activity_add_fuel.xml",
+        "source": "/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/src/main/res/layout/activity_add_fuel.xml"
+    },
+    {
         "merged": "/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
         "source": "/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/notification_template_big_media_narrow.xml"
     },
@@ -98,10 +102,6 @@
     {
         "merged": "/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
         "source": "/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/res/layout/design_bottom_sheet_dialog.xml"
-    },
-    {
-        "merged": "/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/res/merged/debug/layout/activity_add_fuel.xml",
-        "source": "/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/src/main/res/layout/activity_add_fuel.xml"
     },
     {
         "merged": "/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
@@ -132,24 +132,24 @@
         "source": "/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/src/main/res/layout/content_info.xml"
     },
     {
-        "merged": "/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
-        "source": "/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/res/layout/design_navigation_menu_item.xml"
-    },
-    {
         "merged": "/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
         "source": "/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
+        "source": "/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/res/layout/design_navigation_menu_item.xml"
     },
     {
         "merged": "/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
         "source": "/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/res/merged/debug/layout/activity_info.xml",
-        "source": "/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/src/main/res/layout/activity_info.xml"
-    },
-    {
         "merged": "/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
         "source": "/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/res/merged/debug/layout/activity_info.xml",
+        "source": "/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/src/main/res/layout/activity_info.xml"
     },
     {
         "merged": "/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
