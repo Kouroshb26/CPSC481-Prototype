@@ -88,7 +88,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="1dd34fe8ad2ef2422aea17c0c9f1a2eb540c53bf">
+        sha1="82cd00e05d6f973098ca5e2285447a90e76d8223">
         <dex dex="/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d67ef704bd5042be864ca10d32e6892b8740f4a3/classes.dex" />
     </item>
     <item
@@ -97,7 +97,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="e5bda9d0e1c81129654afd6741b4582d8fc16b9d">
+        sha1="c87b7a49faa289538b6d05b727cee0379758afeb">
         <dex dex="/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_bf9a16ce83f0645dda8efaf249136d7b2de96cc9/classes.dex" />
     </item>
     <item

@@ -5,33 +5,46 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="17525749201506"
+    timestamp="23854056142939"
     token="1305223892479048839"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="998" />
+        duration="55" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="194" />
+        duration="22" />
     <task
         name="verifier"
-        duration="22" />
+        duration="1" />
 
     <artifact
-        location="/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="17525749201506"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="23741370537936"
+        verifier="MANIFEST_FILE_CHANGE" >
         <artifact
             location="/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="23854056142939"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

@@ -115,6 +115,8 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.action_settings) {
             return false;
         } else if(id == R.id.menu_fuel){
+            Intent intent = new Intent(this,FuelList.class);
+            startActivity(intent);
             return false;
         } else if(id == R.id.menu_service){
             return false;

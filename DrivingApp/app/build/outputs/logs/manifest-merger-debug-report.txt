@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/src/main/AndroidManifest.xml:2:1-32:12
+ADDED from /Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/src/main/AndroidManifest.xml:2:1-40:12
 	package
 		ADDED from /Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/src/main/AndroidManifest.xml:3:5-33
 		INJECTED from /Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/src/main/AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from /Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/sr
 		INJECTED from /Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/src/main/AndroidManifest.xml
 application
-ADDED from /Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/src/main/AndroidManifest.xml:5:5-30:19
+ADDED from /Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/src/main/AndroidManifest.xml:5:5-38:19
 MERGED from [com.android.support:design:24.2.1] /Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:24.2.1] /Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:24.2.1] /Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/AndroidManifest.xml:25:5-20
@@ -70,6 +70,14 @@ ADDED from /Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/sr
 		ADDED from /Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/src/main/AndroidManifest.xml:28:17-64
 	android:name
 		ADDED from /Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/src/main/AndroidManifest.xml:27:17-63
+activity#kourosh.drivingapp.FuelList
+ADDED from /Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/src/main/AndroidManifest.xml:30:9-36:20
+	android:name
+		ADDED from /Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/src/main/AndroidManifest.xml:30:19-61
+activity#kourosh.drivingapp.AddFuelActivity
+ADDED from /Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/src/main/AndroidManifest.xml:37:9-80
+	android:name
+		ADDED from /Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/src/main/AndroidManifest.xml:37:19-68
 uses-sdk
 INJECTED from /Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:24.2.1] /Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/AndroidManifest.xml:20:5-43
