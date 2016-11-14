@@ -21,6 +21,7 @@ public class FuelList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fuel_list);
 
+
         mListView = (ListView) findViewById(R.id.fuel_list_view);
 
         fuelList = Fuel.getfuelsFromFile("fuelData.json", this);

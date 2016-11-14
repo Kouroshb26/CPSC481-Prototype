@@ -77,7 +77,8 @@
         android:layout_above="@+id/add_button"
         android:layout_alignStart="@+id/add_button"
         android:visibility="invisible"
-        android:onClick="add_fuel" />
+        android:onClick="add_fuel"
+        app:backgroundTint="@android:color/holo_orange_dark"/>
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/add_service"
@@ -90,6 +91,7 @@
         android:layout_alignTop="@+id/add_button"
         android:layout_toStartOf="@+id/add_button"
         android:visibility="invisible"
-        android:onClick="add_service" />
+        android:onClick="add_service"
+        app:backgroundTint="@android:color/holo_orange_dark"/>
 
 </RelativeLayout>

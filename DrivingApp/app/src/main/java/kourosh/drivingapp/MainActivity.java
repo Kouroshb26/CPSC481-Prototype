@@ -58,7 +58,6 @@ public class MainActivity extends AppCompatActivity {
                 service.setVisibility(View.VISIBLE);
                 FloatingActionButton cancel = (FloatingActionButton) findViewById(R.id.cancel_button);
                 cancel.setVisibility(View.VISIBLE);
-
             }
         });
     }
@@ -73,6 +72,8 @@ public class MainActivity extends AppCompatActivity {
         FloatingActionButton cancel = (FloatingActionButton) findViewById(R.id.cancel_button);
         cancel.setVisibility(View.INVISIBLE);
 
+        Intent intent = new Intent(this,AddFuelActivity.class);
+        startActivity(intent);
     }
 
     public void add_service(View view){

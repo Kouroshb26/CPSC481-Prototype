@@ -19,7 +19,8 @@
         android:layout_alignParentRight="true"
         android:clickable="true"
         android:src="@drawable/ic_add_circle_black_24dp"
-        android:onClick="addFuelItem"/>
+        android:onClick="addFuelItem"
+        android:backgroundTint="@android:color/holo_orange_dark"/>
 
     <ListView
         android:id="@+id/fuel_list_view"
