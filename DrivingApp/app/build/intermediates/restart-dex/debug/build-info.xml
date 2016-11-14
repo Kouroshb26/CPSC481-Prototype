@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86_64,x86"
+    api-level="24"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.2"
+    timestamp="17525749201506"
+    token="1305223892479048839"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="998" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="194" />
+    <task
+        name="verifier"
+        duration="22" />
+
+    <artifact
+        location="/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="17525749201506"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
