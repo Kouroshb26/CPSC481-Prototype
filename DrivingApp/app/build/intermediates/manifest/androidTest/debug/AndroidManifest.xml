@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="kourosh.drivingapp.test" >
+    package="com.example.beast.justdriving.test" >
 
     <uses-sdk
         android:minSdkVersion="23"
@@ -10,8 +10,8 @@
         android:name="android.support.test.runner.AndroidJUnitRunner"
         android:functionalTest="false"
         android:handleProfiling="false"
-        android:label="Tests for kourosh.drivingapp"
-        android:targetPackage="kourosh.drivingapp" />
+        android:label="Tests for com.example.beast.justdriving"
+        android:targetPackage="com.example.beast.justdriving" />
 
     <application>
         <uses-library android:name="android.test.runner" />

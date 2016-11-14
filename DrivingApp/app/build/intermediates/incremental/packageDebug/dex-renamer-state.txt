@@ -1,7 +1,7 @@
-#Sun Nov 13 20:04:12 MST 2016
-base.0=/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d67ef704bd5042be864ca10d32e6892b8740f4a3
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_bf9a16ce83f0645dda8efaf249136d7b2de96cc9/classes.dex
-base.1=/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_bf9a16ce83f0645dda8efaf249136d7b2de96cc9
-file.0=/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d67ef704bd5042be864ca10d32e6892b8740f4a3/classes.dex
+#Sun Nov 13 20:19:30 MST 2016
+base.0=C\:\\Users\\Beast\\AndroidStudioProjects\\JustDriving\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_cff28cea3f174cc842e2676273d627ef1b7191bf
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Beast\\AndroidStudioProjects\\JustDriving\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_34453d2cc9b56e901a13b2599d4783d79d93e765\\classes.dex
+base.1=C\:\\Users\\Beast\\AndroidStudioProjects\\JustDriving\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_34453d2cc9b56e901a13b2599d4783d79d93e765
+file.0=C\:\\Users\\Beast\\AndroidStudioProjects\\JustDriving\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_cff28cea3f174cc842e2676273d627ef1b7191bf\\classes.dex

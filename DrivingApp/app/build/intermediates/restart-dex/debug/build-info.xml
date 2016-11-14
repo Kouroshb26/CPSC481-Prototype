@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86_64,x86"
+    abi="x86"
     api-level="24"
     density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="24427784378946"
-    token="1305223892479048839"
+    timestamp="34511630308076"
+    token="5907083510409891225"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="92" />
+        duration="78" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="19" />
+        duration="15" />
     <task
         name="verifier"
         duration="0" />
 
     <artifact
-        location="/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+        location="C:\Users\Beast\AndroidStudioProjects\JustDriving\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
         type="DEX" />
 
     <build
-        timestamp="23741370537936"
-        verifier="MANIFEST_FILE_CHANGE" >
+        timestamp="33235849152117"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/outputs/apk/app-debug.apk"
+            location="C:\Users\Beast\AndroidStudioProjects\JustDriving\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="24427784378946"
+        timestamp="34511630308076"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+            location="C:\Users\Beast\AndroidStudioProjects\JustDriving\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
             type="DEX" />
     </build>
 

@@ -1,11 +1,15 @@
 <resources>
-    <string name="app_name">DrivingApp</string>
+    <string name="app_name">Just Driving</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_navigation">Navigation</string>
+    <string name="oil_change">Oil Change</string>
+    <string name="air_filter_change">Air Filter</string>
+    <string name="type">Type: </string>
+    <string name="date">Date: </string>
+    <string name="currentKM">Current KM: </string>
+    <string name="title">Title: </string>
+    <string name="title1">Oil Change</string>
+    <string name="title2">Air Filter</string>
 
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="title_activity_info">info</string>
-    <string name="hello_round">Hello Round World!</string>
-    <string name="hello_square">Hello Square World!</string>
+    <string name="date1">Oct. 25th, 2016</string>
+
 </resources>
