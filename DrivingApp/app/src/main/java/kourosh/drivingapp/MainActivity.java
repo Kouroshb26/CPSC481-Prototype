@@ -58,7 +58,6 @@ public class MainActivity extends AppCompatActivity {
                 service.setVisibility(View.VISIBLE);
                 FloatingActionButton cancel = (FloatingActionButton) findViewById(R.id.cancel_button);
                 cancel.setVisibility(View.VISIBLE);
-
             }
         });
     }
@@ -73,6 +72,8 @@ public class MainActivity extends AppCompatActivity {
         FloatingActionButton cancel = (FloatingActionButton) findViewById(R.id.cancel_button);
         cancel.setVisibility(View.INVISIBLE);
 
+        Intent intent = new Intent(this,AddFuelActivity.class);
+        startActivity(intent);
     }
 
     public void add_service(View view){
@@ -115,6 +116,8 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.action_settings) {
             return false;
         } else if(id == R.id.menu_fuel){
+            Intent intent = new Intent(this,FuelList.class);
+            startActivity(intent);
             return false;
         } else if(id == R.id.menu_service){
             return false;
