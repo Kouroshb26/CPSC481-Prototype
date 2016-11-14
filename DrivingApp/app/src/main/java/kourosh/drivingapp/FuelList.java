@@ -3,7 +3,10 @@ package kourosh.drivingapp;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ListView;
 import java.text.SimpleDateFormat;
@@ -21,12 +24,17 @@ public class FuelList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fuel_list);
 
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbarFuel);
+        setSupportActionBar(toolbar);
+
         mListView = (ListView) findViewById(R.id.fuel_list_view);
 
         fuelList = Fuel.getfuelsFromFile("fuelData.json", this);
 
         adapter = new FuelItemAdapter(this, fuelList);
         mListView.setAdapter(adapter);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     /** Called when the user clicks the add button */
@@ -52,5 +60,38 @@ public class FuelList extends AppCompatActivity {
                 adapter.notifyDataSetChanged();
             }
         }
+    }
+
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
+    }
+
+
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+
+        //noinspection SimplifiableIfStatement
+        if (id == R.id.action_settings) {
+            return false;
+        } else if(id == R.id.menu_fuel){
+            return false;
+        } else if(id == R.id.menu_service){
+            return false;
+        }else  if (id == R.id.menu_home){
+            Intent intent = new Intent(this,MainActivity.class);
+            startActivity(intent);
+            return false;
+        }else if(id == R.id.menu_info){
+            Intent intent= new Intent(this,info.class);
+            startActivity(intent);
+            return false;
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 }

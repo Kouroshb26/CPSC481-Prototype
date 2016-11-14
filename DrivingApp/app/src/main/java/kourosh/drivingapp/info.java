@@ -19,7 +19,7 @@ public class info extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_info);
         setSupportActionBar(toolbar);
 
-        //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -38,12 +38,14 @@ public class info extends AppCompatActivity {
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return false;
-        } else if(id == R.id.menu_fuel){
-            return false;
-        } else if(id == R.id.menu_service){
+        }  else if(id == R.id.menu_service){
             return false;
         }else  if (id == R.id.menu_home){
             Intent intent = new Intent(this,MainActivity.class);
+            startActivity(intent);
+            return false;
+        }else if(id == R.id.menu_fuel){
+            Intent intent = new Intent(this,FuelList.class);
             startActivity(intent);
             return false;
         }

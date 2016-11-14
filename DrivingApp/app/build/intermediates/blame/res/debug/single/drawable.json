@@ -156,11 +156,11 @@
         "source": "/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/res/merged/debug/drawable/gauge.png",
-        "source": "/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/src/main/res/drawable/gauge.png"
-    },
-    {
         "merged": "/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
         "source": "/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/build/intermediates/res/merged/debug/drawable/gauge.png",
+        "source": "/Users/patrickczeczko/GithubRepos/CPSC481-Prototype/DrivingApp/app/src/main/res/drawable/gauge.png"
     }
 ]
