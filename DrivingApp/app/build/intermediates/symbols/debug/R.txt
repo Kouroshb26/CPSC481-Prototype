@@ -656,7 +656,7 @@ int drawable design_snackbar_background 0x7f020057
 int drawable fuel 0x7f020058
 int drawable gauge 0x7f020059
 int drawable ic_add_circle_black_24dp 0x7f02005a
-int drawable maintenance 0x7f02005b
+int drawable maintanace 0x7f02005b
 int drawable navigation_empty_icon 0x7f02005c
 int drawable notification_template_icon_bg 0x7f02005f
 int drawable plus 0x7f02005d

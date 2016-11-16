@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
-    api-level="24"
-    density="xxhdpi"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="23"
+    density="xxxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="215469566585704"
-    token="4738467028841961697"
-    verifier="MANIFEST_FILE_CHANGE" >
+    timestamp="1331990065966"
+    token="-2813456304154187431"
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
@@ -23,15 +23,29 @@
         duration="0" />
 
     <artifact
-        location="C:\Users\Beast\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
-        timestamp="215469566585704"
-        verifier="MANIFEST_FILE_CHANGE" >
+        timestamp="205167201474"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\Beast\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\outputs\apk\app-debug.apk"
+            location="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="776514790406"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="1331990065966"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>
