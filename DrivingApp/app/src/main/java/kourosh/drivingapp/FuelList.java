@@ -81,6 +81,8 @@ public class FuelList extends AppCompatActivity {
         } else if(id == R.id.menu_fuel){
             return false;
         } else if(id == R.id.menu_service){
+            Intent intent = new Intent(this,ServiceHistory.class);
+            startActivity(intent);
             return false;
         }else  if (id == R.id.menu_home){
             Intent intent = new Intent(this,MainActivity.class);

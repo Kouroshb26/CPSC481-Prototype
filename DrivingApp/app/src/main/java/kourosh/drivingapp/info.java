@@ -39,6 +39,8 @@ public class info extends AppCompatActivity {
         if (id == R.id.action_settings) {
             return false;
         }  else if(id == R.id.menu_service){
+            Intent intent = new Intent(this,ServiceHistory.class);
+            startActivity(intent);
             return false;
         }else  if (id == R.id.menu_home){
             Intent intent = new Intent(this,MainActivity.class);

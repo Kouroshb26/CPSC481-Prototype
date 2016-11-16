@@ -123,6 +123,8 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
             return false;
         } else if(id == R.id.menu_service){
+            Intent intent = new Intent(this,ServiceHistory.class);
+            startActivity(intent);
             return false;
         } else if(id == R.id.menu_info){
             Intent intent= new Intent(this,info.class);

@@ -6,7 +6,10 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
@@ -28,7 +31,9 @@ public class ServiceHistory extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_service_history);
-
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_service);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         lv = (ListView) findViewById(R.id.service_list);
 
         services = Service.getServices("services.json", this);
@@ -55,6 +60,7 @@ public class ServiceHistory extends AppCompatActivity {
         Intent intent = new Intent(this, AddService.class);
         startActivityForResult(intent, 1);
     }
+
 
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -84,4 +90,38 @@ public class ServiceHistory extends AppCompatActivity {
         Intent intent = new Intent(this, ServiceView.class);
         startActivity(intent);
     }
+
+
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
+    }
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+
+        //noinspection SimplifiableIfStatement
+        if (id == R.id.action_settings) {
+            return false;
+        } else if(id == R.id.menu_fuel){
+            Intent intent = new Intent(this,FuelList.class);
+            startActivity(intent);
+            return false;
+        } else if(id == R.id.menu_home){
+            Intent intent = new Intent(this,MainActivity.class);
+            startActivity(intent);
+            return false;
+        } else if(id == R.id.menu_info){
+            Intent intent= new Intent(this,info.class);
+            startActivity(intent);
+            return false;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
 }
+
+

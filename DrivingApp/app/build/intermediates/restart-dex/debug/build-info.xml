@@ -1,62 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="x86"
-    api-level="24"
-    density="xxhdpi"
+    api-level="23"
+    density="560dpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="208546590128102"
-    token="4738467028841961697"
-    verifier="R_CLASS_CHANGE" >
+    timestamp="460905420910193"
+    token="-2813456304154187431"
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="277" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="48" />
+        duration="0" />
     <task
         name="verifier"
-        duration="10" />
-
-    <artifact
-        location="C:\Users\Beast\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-        type="RESOURCES" />
-    <artifact
-        location="C:\Users\Beast\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\Beast\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\Beast\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
-        type="DEX" />
+        duration="0" />
 
     <build
-        timestamp="208116756412289"
-        verifier="MANIFEST_FILE_CHANGE" >
+        timestamp="460458312562890"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\Beast\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\outputs\apk\app-debug.apk"
+            location="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="208546590128102"
-        verifier="R_CLASS_CHANGE" >
+        timestamp="460798114058845"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\Beast\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-            type="RESOURCES" />
-        <artifact
-            location="C:\Users\Beast\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Beast\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Beast\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+            location="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
             type="DEX" />
     </build>
+    <build
+        timestamp="460905420910193"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
