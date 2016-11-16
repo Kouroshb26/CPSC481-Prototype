@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_service"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="kourosh.drivingapp.AddFuelActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title: "
+        android:textSize="35sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/askTitle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date: "
+        android:textSize="35sp"
+        android:layout_below="@+id/askTitle"
+        android:layout_alignParentStart="true"
+        android:id="@+id/askDate"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type: "
+        android:textSize="35sp"
+        android:layout_below="@+id/askDate"
+        android:layout_alignParentStart="true"
+        android:id="@+id/askType" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current KM: "
+        android:textSize="35sp"
+        android:layout_below="@+id/askType"
+        android:layout_alignParentStart="true"
+        android:id="@+id/askCurKM" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addTitle"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/askDate"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/askTitle" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addDate"
+        android:layout_below="@+id/addTitle"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/askTitle"
+        android:layout_above="@+id/askType" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addType"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/addDate"
+        android:layout_above="@+id/askCurKM"
+        android:layout_toEndOf="@+id/askType" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addType"
+        android:id="@+id/addCurKM"
+        android:inputType="number"
+        android:layout_alignBottom="@+id/askCurKM"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/askCurKM" />
+
+    <TextView
+        android:text="Click to add a photo"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/photo"
+        android:layout_marginBottom="11dp"
+        android:layout_alignBottom="@+id/addPhoto"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/camera"
+        android:alpha="0.34"
+        android:elevation="20dp"
+        android:id="@+id/addPhoto"
+        android:layout_below="@+id/askCurKM"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="addPhoto"
+        android:layout_above="@+id/saveButt" />
+
+    <Button
+        android:text="Save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/saveButt"
+        android:layout_marginBottom="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/addDate"
+        android:onClick="save"
+        android:layout_alignEnd="@+id/photo" />
+
+
+</RelativeLayout>

@@ -85,6 +85,9 @@ public class MainActivity extends AppCompatActivity {
         service.setVisibility(View.INVISIBLE);
         FloatingActionButton cancel = (FloatingActionButton) findViewById(R.id.cancel_button);
         cancel.setVisibility(View.INVISIBLE);
+
+        Intent intent = new Intent(this, AddService.class);
+        startActivity(intent);
     }
 
     public void cancel_action(View view){
