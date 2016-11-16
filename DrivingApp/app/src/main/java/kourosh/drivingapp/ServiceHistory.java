@@ -46,9 +46,9 @@ public class ServiceHistory extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent intent = new Intent(ServiceHistory.this, ServiceView.class);
                 intent.putExtra("pos", position);
-                Bundle args = new Bundle();
-                args.putSerializable("list", (Serializable)services);
-                intent.putExtra("bundle", args);
+//                Bundle args = new Bundle();
+//                args.putSerializable("list", (Serializable)services);
+//                intent.putExtra("bundle", args);
                 startActivity(intent);
             }
         });

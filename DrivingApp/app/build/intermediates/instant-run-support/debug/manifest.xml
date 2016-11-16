@@ -55,6 +55,15 @@
             </intent-filter>
         </activity>
         <activity
+            android:name="kourosh.drivingapp.ServiceView"
+            android:parentActivityName="kourosh.drivingapp.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name="kourosh.drivingapp.AddService"
             android:parentActivityName="kourosh.drivingapp.MainActivity" >
         </activity>

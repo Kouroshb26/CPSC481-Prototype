@@ -31,9 +31,9 @@ public class ServiceView extends AppCompatActivity {
         //Doesn't work if you insert something at the moment.
         Intent intent = getIntent();
         int position = intent.getIntExtra("pos", 0);
-        Bundle args = intent.getBundleExtra("bundle");
-        servList = (ArrayList<Service>) args.getSerializable("list");
-//        servList = Service.getServices("services.json", this);
+//        Bundle args = intent.getBundleExtra("bundle");
+//        servList = (ArrayList<Service>) args.getSerializable("list");
+        servList = Service.getServices("services.json", this);
         adapter = new ServiceAdapter(this, servList);
         service = (Service) adapter.getItem(position);
 

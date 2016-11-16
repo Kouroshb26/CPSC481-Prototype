@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="x86"
-    api-level="23"
-    density="560dpi"
+    api-level="24"
+    density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="460905420910193"
-    token="-2813456304154187431"
-    verifier="COLD_SWAP_REQUESTED" >
+    timestamp="215469566585704"
+    token="4738467028841961697"
+    verifier="MANIFEST_FILE_CHANGE" >
 
     <task
         name="javac"
@@ -22,22 +22,16 @@
         name="verifier"
         duration="0" />
 
+    <artifact
+        location="C:\Users\Beast\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
     <build
-        timestamp="460458312562890"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="215469566585704"
+        verifier="MANIFEST_FILE_CHANGE" >
         <artifact
-            location="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\outputs\apk\app-debug.apk"
+            location="C:\Users\Beast\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
-    <build
-        timestamp="460798114058845"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="460905420910193"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
