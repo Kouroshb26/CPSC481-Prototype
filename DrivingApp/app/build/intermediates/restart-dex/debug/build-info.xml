@@ -5,9 +5,9 @@
     density="xxxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="1331990065966"
+    timestamp="129324301864134"
     token="-2813456304154187431"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
@@ -27,22 +27,15 @@
         type="RESOURCES" />
 
     <build
-        timestamp="205167201474"
+        timestamp="128940705718689"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="776514790406"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="1331990065966"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="129324301864134"
+        verifier="COMPATIBLE" >
         <artifact
             location="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
             type="RESOURCES" />

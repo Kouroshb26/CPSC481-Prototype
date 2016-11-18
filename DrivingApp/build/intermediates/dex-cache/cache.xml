@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="a2baad9680764b7d4c546a833874b89bed93862c">
+        sha1="d44602018184d776210be8e8dab6f9d2ad3b74cd">
         <dex dex="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_a2168cb3d6aa89de47f93f4cc11c36b92320a048\classes.dex" />
     </item>
     <item
@@ -61,7 +61,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="a63480599db6a0e3a023d3ac5d47c8177490fd76">
+        sha1="cbcdaf779146ab26f95cfe06b3573fc8ea1a294d">
         <dex dex="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b31901436a03a26bbffbc6bf37ff024d9a0a2089\classes.dex" />
     </item>
     <item
