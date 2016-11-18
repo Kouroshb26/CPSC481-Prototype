@@ -5,40 +5,47 @@
     density="xxxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="129324301864134"
+    timestamp="130776163128836"
     token="-2813456304154187431"
     verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="316" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="26" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="84" />
     <task
         name="verifier"
-        duration="0" />
+        duration="8" />
 
     <artifact
-        location="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-        type="RESOURCES" />
+        location="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
     <build
-        timestamp="128940705718689"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="130226450270715"
+        verifier="MANIFEST_FILE_CHANGE" >
         <artifact
             location="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="129324301864134"
+        timestamp="130704364957582"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="130776163128836"
         verifier="COMPATIBLE" >
         <artifact
-            location="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-            type="RESOURCES" />
+            location="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

@@ -15,7 +15,6 @@
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -35,10 +34,6 @@
             android:theme="@style/AppTheme.NoActionBar"
             android:parentActivityName=".MainActivity"
             >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <activity
@@ -46,30 +41,25 @@
             android:theme="@style/AppTheme.NoActionBar"
             android:parentActivityName=".MainActivity"
             >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <activity
             android:name="kourosh.drivingapp.ServiceView"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".ServiceHistory"
             >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <activity
             android:name="kourosh.drivingapp.AddService"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".ServiceHistory"
             >
         </activity>
 
 
-        <activity android:name="kourosh.drivingapp.AddFuelActivity"></activity>
+        <activity android:name="kourosh.drivingapp.AddFuelActivity"
+            android:parentActivityName=".FuelList">
+
+        </activity>
     </application>
 
 </manifest>

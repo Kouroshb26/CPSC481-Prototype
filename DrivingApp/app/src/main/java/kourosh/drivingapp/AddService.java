@@ -34,7 +34,7 @@ public class AddService extends AppCompatActivity {
 
 
     public void save(View view) {
-        Intent intent = new Intent();
+        Intent intent = new Intent(this,ServiceHistory.class);
 
         EditText eT = (EditText) findViewById(R.id.addTitle);
         String newTitle = eT.getText().toString();

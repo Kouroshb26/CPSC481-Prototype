@@ -12,11 +12,47 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_9300161ca99ea8625d661515ea9e9207a193ff80\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_1821794bf616bb2c3f2e69fd4aa86792e594d132\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_52de7eef4832ab2bfdb4fbb90dd4c1c3677282d0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_95c5d21a670feb54725f578708d66792e9779f3b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="d44602018184d776210be8e8dab6f9d2ad3b74cd">
+        sha1="25fc2d419e7df1bf68ea0a3a116464dfb040a374">
         <dex dex="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_a2168cb3d6aa89de47f93f4cc11c36b92320a048\classes.dex" />
     </item>
     <item
@@ -45,6 +81,24 @@
         revision="24.0.1"
         sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
         <dex dex="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_c5a8e31aebf7643353b7910f91c40fa4345308d9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_ab865a178444bb6fa90d7d8d99cff208b4aa0b9e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-24.2.1_5e33e805e76f3c546706190edbc0a41ee8828237\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -93,75 +147,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_334f31f9a031d21ee8f1be2210078ea2042ca77a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_9300161ca99ea8625d661515ea9e9207a193ff80\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_1821794bf616bb2c3f2e69fd4aa86792e594d132\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_52de7eef4832ab2bfdb4fbb90dd4c1c3677282d0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_95c5d21a670feb54725f578708d66792e9779f3b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_ab865a178444bb6fa90d7d8d99cff208b4aa0b9e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
-        <dex dex="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-24.2.1_5e33e805e76f3c546706190edbc0a41ee8828237\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
         sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
         <dex dex="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_70bbc6bc46a972af1d2c722289e44262f71af405\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_334f31f9a031d21ee8f1be2210078ea2042ca77a\classes.dex" />
     </item>
     <item
         is-multidex="true"

@@ -17,7 +17,7 @@ public class AddFuelActivity extends AppCompatActivity {
 
     /** Called when the user clicks the save button */
     public void saveFuelItem(View view) {
-        Intent intent = new Intent();
+        Intent intent = new Intent(this,FuelList.class);
 
         EditText editText = (EditText) findViewById(R.id.edit_amount_fueled);
         String amountFueled = editText.getText().toString();
@@ -38,7 +38,6 @@ public class AddFuelActivity extends AppCompatActivity {
 
         setResult(RESULT_OK, intent);
         finish();
-
         this.finish();
     }
 }
