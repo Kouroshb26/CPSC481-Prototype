@@ -1,51 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="arm64-v8a,armeabi-v7a,armeabi"
+    abi="x86"
     api-level="23"
-    density="xxxhdpi"
+    density="560dpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="130776163128836"
+    timestamp="251411279434477"
     token="-2813456304154187431"
-    verifier="COMPATIBLE" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="316" />
+        duration="6842" />
     <task
         name="instant-run-dex"
-        duration="26" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="84" />
+        duration="4265" />
     <task
         name="verifier"
-        duration="8" />
+        duration="577" />
 
     <artifact
-        location="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="130226450270715"
-        verifier="MANIFEST_FILE_CHANGE" >
+        timestamp="251411279434477"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="130704364957582"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="130776163128836"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\kourosh\Documents\GitHub\CPSC481-Prototype\DrivingApp\app\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
